@@ -35,5 +35,17 @@
   },
   "prettier": {
     "singleQuote": true
+  },
+  "babel": {
+    "env": {
+      "test": {
+        "plugins": [
+          "@babel/plugin-transform-modules-commonjs"
+        ]
+      }
+    }
+  },
+  "dependencies": {
+    "json-serve": "^0.1.0"
   }
 }
