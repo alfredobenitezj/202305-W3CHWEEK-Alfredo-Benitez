@@ -1,0 +1,9 @@
+body {
+  height: 800px;
+  background-image: url('./public/zapdos.jpeg');
+  background-size: cover;
+  background-size: 25rem;
+  background-repeat: repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
