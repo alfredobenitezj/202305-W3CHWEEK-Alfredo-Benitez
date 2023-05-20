@@ -1,9 +1,20 @@
-body {
-  height: 800px;
-  background-image: url('./public/zapdos.jpeg');
-  background-size: cover;
-  background-size: 25rem;
-  background-repeat: repeat;
-  background-position: center center;
-  background-attachment: fixed;
+* {
+  box-sizing: border-box;
+  background-color: aqua;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.footergeneral {
+  display: flex;
+  justify-content: space-between;
+}
+.company {
+  font-size: 2rem;
+}
+.colaborated {
+  font-size: 2rem;
 }
