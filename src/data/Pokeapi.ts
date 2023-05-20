@@ -3,7 +3,7 @@ export class Pokeapi {
   localUrl: string;
   constructor() {
     this.Urlapi = 'https://pokeapi.co/api/v2/pokemon/';
-    this.localUrl = 'http://localhost:3000/pokemon';
+    this.localUrl = 'http://localhost:5173/';
   }
 
   async getAll() {
