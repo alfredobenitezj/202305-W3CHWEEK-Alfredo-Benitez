@@ -1,6 +1,6 @@
 import { Component } from './component';
 
-export class List extends Component {
+export class Main extends Component {
   constructor(selector: string) {
     super(selector);
     this.template = this.createTemplate();
@@ -8,7 +8,8 @@ export class List extends Component {
   }
 
   createTemplate() {
-    return `
-    <ul class="pokemon-list"></ul>`;
+    return `<main>
+    <div id="pokelist">
+     </main>`;
   }
 }
