@@ -6,7 +6,7 @@ import { Main } from './main';
 // eslint-disable-next-line no-new
 new Header('#app');
 // eslint-disable-next-line no-new
-new Card('.list');
+new Card('#pokebox');
 // eslint-disable-next-line no-new
 new Main('#app');
 // eslint-disable-next-line no-new

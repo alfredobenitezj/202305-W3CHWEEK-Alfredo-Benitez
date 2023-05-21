@@ -1,9 +1,8 @@
 import { listpokemon, Pokemon } from './interface';
-import { Main } from '/Users/alfredobenitez/Desktop/Proyectopokemonweek/src/main';
 
 export default function fetchPokemon(): void {
   const urlPokemon: string = 'https://pokeapi.co/api/v2/pokemon/';
-  const $pokeBox: HTMLElement = document.getElementById('pokelist')!;
+  const $pokeBox: HTMLElement = document.getElementById('poke-box')!;
   const fragment: DocumentFragment = document.createDocumentFragment();
 
   fetch(urlPokemon)
