@@ -15,6 +15,7 @@ export class Footer extends Component {
     <div class="colaborated">
       <p>Profesor Oak and Red colaborated in this Proyect</p>
     </div>
+    
   </footer>`;
   }
 }
