@@ -1,3 +1,4 @@
+import {} from '../interface';
 import { Component } from './component';
 import { newpokemon } from '../model/pokecard';
 import { Pokeapi } from './data/Pokeapi';
@@ -16,7 +17,7 @@ export class Card extends Component {
   async handleLoad() {
     this.pokemon = await this.repository.getAll();
     console.log(this.pokemon);
-    console.log(this.pokemon[0]);
+    console.log(this.pokemon.results);
     this.template = this.createTemplate();
     this.render();
   }
