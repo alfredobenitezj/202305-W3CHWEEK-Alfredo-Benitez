@@ -8,6 +8,8 @@ export class Main extends Component {
   }
 
   createTemplate() {
-    return `<main class="list"></main>`;
+    return `<main>
+    <div id="pokelist">
+     </main>`;
   }
 }

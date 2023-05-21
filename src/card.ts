@@ -1,4 +1,4 @@
-import {} from '../interface';
+import {} from '';
 import { Component } from './component';
 import { newpokemon } from '../model/pokecard';
 import { Pokeapi } from './data/Pokeapi';
