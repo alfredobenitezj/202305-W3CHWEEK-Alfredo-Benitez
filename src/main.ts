@@ -9,7 +9,7 @@ export class Main extends Component {
 
   createTemplate() {
     return `<main>
-    <div id="pokelist">
+    <div id="poke-box"> </div>
      </main>`;
   }
 }

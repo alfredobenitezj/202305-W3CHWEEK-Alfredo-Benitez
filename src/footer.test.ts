@@ -1,11 +1,11 @@
 import { screen } from '@testing-library/jest-dom';
 import 'testing-library/jest-dom';
-import { Header } from './header';
+import { Footer } from './footer';
 
 describe('Given the component Header', () => {
   describe('when it instanciate', () => {
-    new Header('slot');
-    const element = screen.getByRole('contentinfo');
+    new Footer('slot');
+    const element = screen.getByRole('heading');
     document.body.innerHTML = '<slot></slot>';
 
     test('it should be see in the document', () => {
