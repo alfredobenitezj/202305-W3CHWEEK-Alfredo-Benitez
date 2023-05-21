@@ -1,4 +1,4 @@
-import { listpokemon, pokemon } from './interface';
+import { listpokemon, Pokemon } from './interface';
 import { Main } from '/Users/alfredobenitez/Desktop/Proyectopokemonweek/src/main';
 
 export default function fetchPokemon(): void {
@@ -10,7 +10,7 @@ export default function fetchPokemon(): void {
     .then((res) => res.json())
     .then((res: listpokemon) => {
       console.log(res.count);
-      res.results.forEach((Pokemon: pokemon) => {
+      res.results.forEach((Pokemon) => {
         const $figure: HTMLElement = document.createElement('figure');
         const $img: HTMLElement = document.createElement('img');
         const $figcaption: HTMLElement = document.createElement('figcaption');
@@ -21,7 +21,7 @@ export default function fetchPokemon(): void {
 
         fetch(Pokemon.url)
           .then((res) => res.json())
-          .then((res: pokemon) => {
+          .then((res: Pokemon) => {
             $img.setAttribute('src', res.sprites.front_default);
           });
 
