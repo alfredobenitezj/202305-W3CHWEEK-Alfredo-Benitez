@@ -6,8 +6,8 @@ export interface listpokemon {
   results: { name: string; url: string }[];
 }
 
-export interface pokemon {
+export interface Pokemon {
   id: number;
   name: string;
-  sprite: { front_default: string };
+  sprites: { front_default: string };
 }
