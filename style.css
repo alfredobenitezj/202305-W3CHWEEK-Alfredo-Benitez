@@ -18,3 +18,10 @@ header {
 .colaborated {
   font-size: 2rem;
 }
+.inprogres {
+  font-size: 2rem;
+}
+.psyduck {
+  display: flex;
+  justify-content: center;
+}
